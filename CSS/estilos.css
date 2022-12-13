@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+div{
+    background-color: #000000;
+    font-size: 20px;
+}
+
+body{
+    hyphens:auto;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+a:link{text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    border: 200px;
+}
+
+a:hover{text-decoration: none;
+    background-color:#ffffff;
+    
+    padding: 10px;
+}
+
+a:visited{
+    color: rgb(167, 167, 167);
+    text-decoration: underline;
+}
+
+#area-cabecalho{
+    height: 100px;
+    background-color:#000000;
+    text-align: center;
+    padding: 15px;
+}
+
+main{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 500px;
+    background-color: #f8f1e1;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main img {
+    margin-top: 20px;
+    border-radius: 7px;
+
+}
+
+main p {
+    margin: 20px;
+    font-size: large;
+    color: rgb(51, 51, 51);
+    text-align: justify;
+}
+
+main p strong{
+  color: #000;
+  font-size: 18px;
+}
+
+main h5{
+  font-size: smaller;
+  color: rgb(44, 44, 44);
+}
+
+.rodape {
+    background-color: rgb(0, 0, 0);
+    padding: 0px 0 0px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+legend
+{
+  font-weight: bold;
+  font-family: "Montserrat","Arial","Times New Roman";
+}
